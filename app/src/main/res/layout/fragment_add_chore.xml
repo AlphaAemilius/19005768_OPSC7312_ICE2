@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.AddChoreFragment">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="50dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/lblChoreID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="109dp"
+                    android:text="Chore ID"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/edtChoreID"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:textColorHint="#8C8A8A"
+                    android:inputType="textPersonName"
+                    android:textSize="14sp"
+                    android:hint="Chore ID"
+                    android:autofillHints="" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/lblChoreName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="121dp"
+                    android:text="Chore "
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/edtChoreName"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:textColorHint="#8C8A8A"
+                    android:inputType="text"
+                    android:textSize="14sp"
+                    android:hint="e.g. wash dishes"
+                    android:autofillHints="" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/lblChoreTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="121dp"
+                    android:text="Time  "
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/edtChoreTime"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:textColorHint="#8C8A8A"
+                    android:inputType="text"
+                    android:textSize="14sp"
+                    android:hint="17:00"
+                    android:autofillHints="" />
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/btnSaveChore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Save Chore"
+                android:layout_margin="50dp"/>
+        </LinearLayout>
+
+
+
+</FrameLayout>
